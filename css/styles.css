@@ -1,0 +1,188 @@
+/* HTML Elements */
+
+body {
+  font-family: "Roboto Slab", serif;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.button-link {
+  color: white;
+}
+
+.button-link:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+/* Classes */
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* id's */
+#title {
+  background-color: #284E78;
+  color: white;
+}
+
+#features {
+  padding: 100px 150px;
+  text-align: center;
+  background-color: white;
+  z-index: 2;
+  position: relative;
+}
+/* icons */
+#features .fas:hover{
+  color: #284E78;
+}
+
+h3 {
+  margin-top: 20px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+#features p {
+  color: #8f8f8f;
+  padding: 7% 15%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #284E78;
+  color: white;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#testimonials img {
+  width: 10%;
+/* to make img a circle */
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #284E78;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.feature {
+  padding: 5%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 2.5rem;
+
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 1.2rem;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #284E78;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image */
+.title-image {
+  width: 100%;
+  transform: rotate(25deg);
+  position: absolute;
+  z-index: 1;
+  right: 10%;
+  top: 5%;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #284E78;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta h2 {
+  color: white;
+}
+
+#footer {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.contact-icon {
+  margin: 10px;
+}
+
+/* Footer Section */
+.footer-link {
+  color: black;
+}
